@@ -6,8 +6,8 @@ console.log("Hi " + name + " nice to meet you! \n");
 
 const birthYear = readlineSync.question('What year were you born? \n');
 let age = 2021 - birthYear;
-console.log(`Looks like your age is ${age}, is this correct?`);
+console.log(`Looks like your age is ${age}, is this correct?\n`);
 
 // Part 3: Confirm age
-const confirm = readlineSync.question("\n");
-console.log('Great, lets continue...');
+const confirm = readlineSync.keyInYN('Y or N');
+console.log('Great...');
