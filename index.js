@@ -1,6 +1,7 @@
 const readlineSync = require("readline-sync");
 const name = readlineSync.question("What's your name? \n");
-console.log("Hi " + name + " nice to meet you! \n");
+const capitalizedName = name.charAt(0).toUpperCase() + name.slice(1);
+console.log("Hi " + capitalizedName + " nice to meet you! \n");
 
 // Part 2: Age 
 
