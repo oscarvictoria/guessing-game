@@ -11,5 +11,7 @@ console.log(`Looks like your age is ${age}, is this correct?\n`);
 
 // Part 3: Confirm age
 const confirm = readlineSync.keyInYN('Y or N');
-console.log('Great...');
+console.log('Great');
+
+
 
